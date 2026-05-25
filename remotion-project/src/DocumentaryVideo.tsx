@@ -483,7 +483,7 @@ export const DocumentaryVideo: React.FC = () => {
     <AbsoluteFill style={{ background: DARK }}>
       {/* ── source footage ── */}
       <Video
-        src={staticFile("source.mp4")}
+        src={staticFile("source.webm")}
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
       />
 
